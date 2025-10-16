@@ -29,10 +29,18 @@ To write a Python program that sorts a dictionary's:
 
 ---
 
-## 🧪Program
-Add Code here
+## 🧪Program:
+```
+input_dict = {2: 56, 1: 2, 5: 12, 4: 24, 6: 18, 3: 323}
+sorted_items = sorted(input_dict.items())
+print("Keys and Values sorted in alphabetical order by the key")
+for key, value in sorted_items:
+    print(f"({key}, {value})", end=' ')
+```
+## Output:
 
-## Sample Output
+<img width="519" height="115" alt="449556595-f7fd5da9-b6a3-4bae-b59b-8117d8d6056d" src="https://github.com/user-attachments/assets/e65a8708-ee42-41a8-9827-8e57561043c9" />
 
-## Result
+## Result:
+The program was successful
 
